@@ -1,0 +1,26 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+background-color:white;
+margin: 0 200px 0 200px;
+}
+header{
+text-align: center;
+}
+h1{
+color: pink;
+margin-top: 70px;
+padding:50px;
+}
+.column{
+    background-color: rgb(86, 134, 144);
+    height: 100px;
+    width: 200px;
+    margin-top: 40px;
+    margin-left: 10px;
+    float: left;
+    border: 1px solid black;
+}
