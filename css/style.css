@@ -29,16 +29,18 @@ width: calc((100% / 3) - 50px);
 margin: 40px 25px 25px 25px;
 float:left;
 }
-.column::after , .scnd-cont::after{
+.column::after , .scnd-cont::after {
 content: "";
 display: table;
 clear: both;
 }
-.column>p , h2{
+.info{
 color: white;
+float:left;
 }
-.column>p{
-padding-top:10px;
+.info>p{
+margin-top:15px;
+margin-bottom: -11px;
 }
 a{
 text-decoration: none;
