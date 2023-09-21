@@ -3,9 +3,8 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
-body{
-background-color:white;
-margin: 0 200px 0 200px;
+.frst-cont , .scnd-cont{
+    margin: 0 200px 0 200px;
 }
 header{
 text-align: center;
@@ -18,9 +17,9 @@ padding:50px;
 .column{
     background-color: rgb(86, 134, 144);
     height: 100px;
-    width: calc(100% / 3 -20px);
+    width: calc((100% / 3) - 20px);
     margin-top: 40px;
-    margin-left: 10px;
+    margin-left: 5px;
     float: left;
     border: 1px solid black;
 }
